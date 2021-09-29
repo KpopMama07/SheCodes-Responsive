@@ -1,0 +1,20 @@
+<a href="about.html">About Me</a>
+
+<a href="about.html#contact">Contact Me</a>
+
+<h1>About Me</h1>
+<a href="index.html">Back to Homepage</a>
+
+<h2 id="contact">Contact Me</h2>
+
+You can email me at
+<a href="mailto:jazzyfizzle423@gmail.com"> jazzyfizzle423@gmail.com</a>
+
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: red;
+}
