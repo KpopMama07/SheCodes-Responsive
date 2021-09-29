@@ -1,0 +1,35 @@
+:root {
+	--heading-color: blue;
+	--body-color: red;
+	--paragraph-color: pink;
+	--text-align: center;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 0 20px;
+	color: var(--body-color);
+	text-align: var(--text-align);
+}
+
+h1 {
+	font-weight: 900;
+	margin: 0;
+	font-size: 34px;
+	line-height: 48px;
+	color: var(--heading-color);
+}
+
+h1 h2 {
+	color: #231d3c;
+}
+
+h3 {
+	color: var(--paragraph-color);
+}
+
+.logo {
+	display: block;
+	margin: 30px auto;
+	width: 150px;
+}
