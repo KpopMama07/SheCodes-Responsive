@@ -1,0 +1,93 @@
+body {
+  background: chocolate;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.croissant {
+  max-width: 50%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
+
+footer {
+  text-align: center;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>Contact us</h1>
+    <p>
+      To experience a delicious pastry treat like never before, email us at
+      <a href="mailto:tasty@pastry.com" title="contact us by email"
+        >tasty@pastry.com</a
+      >
+    </p>
+    <footer>
+      <a href="/">Homepage</a>
+      <a href="/photo.html">Photo</a>
+      <a href="/contact.html">Contact</a>
+    </footer>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Photo</title>
+  </head>
+  <body>
+    <h1>This is a croissant!</h1>
+    <img src="/images/Croissant.jpg" alt="croissant" class="croissant" />
+  <footer>
+      <a href="/">Homepage</a>
+      <a href="/photo.html">Photo</a>
+      <a href="/contact.html">Contact</a>
+    </footer>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>Contact us</h1>
+    <p>
+      To experience a delicious pastry treat like never before, email us at
+      <a href="mailto:tasty@pastry.com" title="contact us by email"
+        >tasty@pastry.com</a
+      >
+    </p>
+    <footer>
+      <a href="/">Homepage</a>
+      <a href="/photo.html">Photo</a>
+      <a href="/contact.html">Contact</a>
+    </footer>
+  </body>
+</html>
+
