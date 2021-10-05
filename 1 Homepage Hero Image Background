@@ -1,0 +1,59 @@
+<div class="container">
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title mb-5">Tsunoda Stylings</h1>
+          <h2 class="hero-subtitle mb-5">
+            The first step to creating your online presence.
+          </h2>
+
+          <a href="/services.html" class="btn btn-branding">Services</a>
+          <a href="/index-ja.html" class="btn btn-branding">日本語</a>
+        </div>
+      </section>
+      
+      .hero {
+  padding: 160px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/images/fuji.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(70%);
+}
+.hero-content {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+.hero-title {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+.btn-branding {
+  background: black;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding:hover {
+  background: white;
+  color: black;
+}
