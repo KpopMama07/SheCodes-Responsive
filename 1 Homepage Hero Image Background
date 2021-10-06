@@ -1,49 +1,137 @@
-<div class="container">
-      <section class="hero">
-        <div class="hero-content">
-          <h1 class="hero-title mb-5">Tsunoda Stylings</h1>
-          <h2 class="hero-subtitle mb-5">
-            The first step to creating your online presence.
-          </h2>
-
-          <a href="/services.html" class="btn btn-branding">Services</a>
+ <div class="main-hero text-center">
+      <h1 class="hero-title mb-5">Tsunoda Stylings</h1>
+    <h2 class="hero-subtitle mb-5">The first step to creating your online presence.</h2>
+     <a href="/services.html" class="btn btn-branding">Services</a>
           <a href="/index-ja.html" class="btn btn-branding">日本語</a>
+          <br />
+          <h2 class="hero-subtitle hero-enter">
+            <i class="fas fa-chevron-circle-down"></i>&nbsp;<a href="#scroll" class="enter" title="Enter"
+              >Enter</a
+            >
+            &nbsp;<i class="fas fa-chevron-circle-down"></i>
+          </h2>
         </div>
-      </section>
-      
-      .hero {
-  padding: 160px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  </div>  
+   </div>
+  </div>
+    </div>
+    <div class="container">
+    <div class="row m-1 p-1 rounded text-center">
+    <div class="col-md-6 d-md-block d-none p-2"> <img
+        src="/images/Original on Transparent.png"
+        class="img-fluid img-homepage mt-5"
+        alt="Tsunoda Stylings Logo"
+        title="Tsunoda Stylings Logo"
+      />
+    </div>
+    <div class="col-md-6">
+       <div class="project-description">
+        <h2 class="main" id="scroll">Who We Are</h2>
+        <p>
+          Tsunoda Stylings was founded in 2021 by Jasmine Tsunoda. After
+          successfully completing the SheCodes Workshops, Jasmine decided to
+          help give back to the community by giving affordable access to those
+          in need of a website for their business on a budget!
+        </p>
+        <a href="/team.html" class="btn btn-branding-outline" title="Our Team">Our Team</a>
+        <div class="about-paragraphs"></div>
+      </div>
+    </div>
+    <hr />
+    </div>
+  </div>
+  <div class="container">
+    <div class="row m-1 p-1 rounded">
+      <div class="col-md-6 text-center">
+        <div class="project-description">
+           <h2 class="main text-center">Current Creations</h2>
+          <p>
+            Check out our portfolio to get an idea of what kind of services we
+            offer. Got something in mind that you don't see here? No problem!
+            Just contact us and we will help your dreams become a reality! No
+            idea is too niche for us!
+          </p>
+          <a href="/portfolio.html" class="btn btn-branding-outline" title="Portfolio"
+            >Portfolio</a
+          >
+          <div class="about-paragraphs"></div>
+        </div>
+      </div>
+      <div class="col d-none d-lg-block">
+        <img
+          src="/images/rosechapel.png"
+          class="img-fluid"
+          alt="RoseChapelHomepage"
+          title="Rose Chapel Homepage"
+        />
+      </div>
+    </div>
+  </div>
+  
+  :root {
+  --primary-color: #651e9f;
+  --secondary-color: #d8c1d8;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family: "Ephesis", cursive;
 }
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url(/images/fuji.jpg);
-  background-repeat: no-repeat;
+
+body {
+  background: #e6e0e0;
+}
+h1,
+h2,
+h3,
+h4,
+header {
+  text-align: center;
+  margin: 0 auto;
+  color: black;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: var(--font-family);
+}
+h2,
+header {
+  font-size: 25px;
+  font-family: var(--font-family);
+}
+
+h3 {
+  font-size: 20px;
+}
+.main-hero {
+  padding: 160px 20px 225px 10px;
+  background-image: url(/images/fuji.jpg);
   background-size: cover;
-  background-position: center center;
-  filter: brightness(70%);
+  background-repeat: no-repeat;
+}
+.hero {
+  background: #dbd5d5;
+  text-align: center;
+  padding: 130px 20px;
 }
 .hero-content {
   position: relative;
-  color: white;
+  color: white !important;
   text-align: center;
   margin: 0.625rem;
 }
 .hero-title {
   font-weight: 600;
   margin-bottom: 0;
+  color: white !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2.5px black;
 }
 .hero-subtitle {
   font-size: 2rem;
   font-weight: 200;
   margin-top: 1rem;
+  color: white !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1.5px black;
 }
 .btn-branding {
   background: black;
@@ -56,4 +144,211 @@
 .btn-branding:hover {
   background: white;
   color: black;
+}
+
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+.btn-branding-outline:hover {
+  color: black;
+  background: var(--secondary-color);
+}
+.img-homepage {
+  max-width: 80%;
+}
+.hero-enter {
+  margin: 150px 0;
+}
+.enter {
+  color: black !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1.5px black;
+}
+.project-description {
+  padding: 50px 20px;
+}
+a {
+  color: white;
+}
+.main {
+  border: 3px solid var(--secondary-color);
+  border-radius: 4px;
+  width: 170px;
+  margin: 20px auto;
+}
+
+.tslogo {
+  max-width: 100px;
+}
+.footer {
+  border-bottom: 1px solid #651e9f;
+  font-family: var(--font-family);
+}
+.copyright {
+  color: black;
+}
+.navigation-links {
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.navbar-nav > li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-brand,
+.end-text {
+  font-family: var(--font-family);
+}
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+.nav-link,
+.about-link {
+  color: black !important;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav-link:hover,
+.about-link:hover {
+  color: white !important;
+  background: var(--primary-color);
+  cursor: pointer;
+  border: 1px solid var(--secondary-color);
+}
+.navbar-brand-title {
+  color: black !important;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(167, 106, 218, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(167, 106, 218, 1);
+}
+
+.contact {
+  font-size: 36px;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.contact-link:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 500px;
+  font-family: var(--font-family);
+}
+
+.email,
+.email-link,
+.social-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+.email-link:hover,
+.social-link:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.bg-purple {
+  background: var(--secondary-color);
+}
+.btn-outline-secondary:hover {
+  color: white !important;
+  background: #651e9f !important;
+  cursor: pointer;
+}
+
+.border-class {
+  border: 1px solid #651e9f;
+  margin: 10px;
+  padding: 10px;
+  max-width: 800px;
+}
+.soon,
+.kpopmama,
+.weather {
+  display: block;
+  text-align: center;
+  margin: 5px 20px;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 33px;
+  }
+  .navbar-brand-title {
+    display: none;
+  }
+}
+
+@media (min-width: 275px) {
+  h1 {
+    font-size: 55px;
+    margin: 5px;
+  }
+  .email-link {
+    display: block;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 415px) {
+  .email,
+  .icon {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
